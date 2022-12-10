@@ -21,7 +21,6 @@ public class RegForm implements ActionListener{
                 + "Re-Password "+"<br><br>Courses "+"<br><br>Branch "+"<br><br>Semester</html>");
         details.setBounds(50, 60, 400, 500);
         details.setFont(new Font("Serif", Font.PLAIN, 20));
-        
         // adding text fields
         box = new JTextField[7];
         for(int i=0;i<7;i++){
